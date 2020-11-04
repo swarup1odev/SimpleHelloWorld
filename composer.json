@@ -1,0 +1,29 @@
+{
+    "name": "developer/hello-world-git",
+    "description": "a simple program which returns hello World",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swarup Saha",
+            "email": "swarup@1osolutions.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HelloWorldGit\\": "src/"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HelloWorld\\Test\\": "tests/"
+        }
+    }
+}
